@@ -1,0 +1,59 @@
+.subline_container{
+    background:  #81C644;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin:0;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 0 !important;
+}
+
+
+.subline__text{
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+   
+    
+}
+.subline__text__description{
+    width: 80vw;
+ 
+}
+
+.subline__text__description p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #fff;
+    text-align: center;
+
+    
+}
+
+
+@media screen and (max-width:960px){
+    .subline_container{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .subline__text{
+        font-size: 2rem;
+        width: 70vw;
+        font-weight: bolder;
+       
+        
+    }
+
+    .subline__text__description p{
+        font-size: 1rem;
+    }
+}

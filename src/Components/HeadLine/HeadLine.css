@@ -1,0 +1,132 @@
+.ui.container{
+    background: linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent),
+    url("/head.jpg") left 80% bottom 50% /cover no-repeat border-box,
+    #ff1b68;
+    width: 100vw; 
+    margin-top: 0;
+}
+
+
+.events{
+    display: flex;
+    width: 100vh;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-right:120px;
+    padding-top: 100px;
+   
+
+}
+
+.add{
+    font-weight: bolder;
+    color: #fff;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+  
+}
+.add:hover,.add:active,.description:active{
+    border-bottom: #D1E2E8 3px solid;
+    transition: all 0.2s ease-out;
+    background-color: #1888ff;
+    border-radius: 2px;
+    padding:  2px 5px;
+}
+
+
+
+.description{
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+    font-weight:bolder ;
+}
+
+
+.parts__of__Chile{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    height:12px;
+    flex-wrap: wrap;
+    vertical-align: middle;
+    margin-top: 60px;
+    
+   
+  
+}
+.parts__of__Chile a p{
+    color:#fff;
+}
+
+.parts__of__Chile a p:hover{
+    color: #365D87;
+    border: 1px gray solid;
+    padding: 5px;
+    background: honeydew;
+    border-radius: 5px;
+}
+
+.parts__of__Chile p:focus {
+    outline: none;
+  }
+
+
+@media screen and (max-width:767px){
+
+    .ui.container{
+        width: 100vw;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0 !important;
+        padding-top: 100px;
+    }
+    .events{
+        display: block;
+        width: 100vw;
+        text-align: center;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+    .add{
+        font-weight: bold;
+        font-size: 3rem;
+    
+    }
+
+    .description{
+        font-size: 1.3rem;
+        margin-top: 2px;
+        font-weight: bolder;
+        
+
+    }
+    .parts__of__Chile{
+        display: block;
+        padding-bottom: 70px;
+    }
+    .parts__of__Chile a p{
+        margin: 15px;
+    }
+ .parts__of__Chile a p:hover{
+    font-weight: bold;
+    color:  #1888ff;
+    background: none;
+    border-radius: none;
+    border: hidden;
+    
+
+     
+}
+}  

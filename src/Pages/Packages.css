@@ -1,0 +1,37 @@
+.packages-container{
+    background: #81C644;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+   
+}
+
+.ui.button:hover{
+    background:#6C63FF ;
+}
+.ui.card {
+    margin: 10px;
+    width: 30vw; 
+    cursor: pointer;
+}
+.imgage img{
+    
+}
+
+@media screen and (max-width:767px){
+   
+    .ui.card{
+        width: 60vw;
+    }
+
+    button{
+        display: block;
+    }
+
+}
